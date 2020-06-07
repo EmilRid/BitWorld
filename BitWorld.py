@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     pygame.init()
     pygame.font.init()
-    font = pygame.font.SysFont('Comic Sans MS', 30)
+    font = pygame.font.SysFont('consolas', 30)
 
     display: pygame.display = pygame.display.set_mode((WIN_SIZE, WIN_SIZE))
     timer = pygame.time.Clock()
